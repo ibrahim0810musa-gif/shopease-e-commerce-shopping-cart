@@ -27,7 +27,7 @@ const products = [
     name: "Smartphone",
     price: 250000,
     category: "Electronics",
-    image: "images/smartphone.jpg",
+    image: "smartphone.jpg",
     description: "A modern smartphone for everyday use."
   },
   {
@@ -35,7 +35,7 @@ const products = [
     name: "Headphones",
     price: 35000,
     category: "Electronics",
-    image: "images/headphones.jpg",
+    image: "headphones.jpg",
     description: "Enjoy your favourite music with clear sound."
   },
   {
@@ -43,7 +43,7 @@ const products = [
     name: "Sneakers",
     price: 45000,
     category: "Fashion",
-    image: "images/sneakers.jpg",
+    image: "sneakers.jpg",
     description: "Comfortable sneakers for everyday activities."
   },
   {
@@ -51,7 +51,7 @@ const products = [
     name: "Wristwatch",
     price: 28000,
     category: "Accessories",
-    image: "images/wristwatch.jpg",
+    image: "wristwatch.jpg",
     description: "A stylish watch for every occasion."
   },
   {
@@ -59,7 +59,7 @@ const products = [
     name: "Backpack",
     price: 22000,
     category: "Fashion",
-    image: "images/backpack.jpg",
+    image: "backpack.jpg",
     description: "A practical backpack for work and school."
   },
   {
@@ -67,7 +67,7 @@ const products = [
     name: "Wireless Mouse",
     price: 15000,
     category: "Electronics",
-    image: "images/mouse.jpg",
+    image: "mouse.jpg",
     description: "A wireless mouse for smooth navigation."
   },
   {
@@ -75,7 +75,7 @@ const products = [
     name: "T-Shirt",
     price: 12000,
     category: "Fashion",
-    image: "images/tshirt.jpg",
+    image: "tshirt.jpg",
     description: "A comfortable T-shirt for casual wear."
   },
   {
@@ -83,7 +83,7 @@ const products = [
     name: "Laptop",
     price: 230000,
     category: "Electronics",
-    image: "images/laptop.jpg",
+    image: "laptop.jpg",
     description: "A laptop for work, learning and entertainment."
   }
 ];
