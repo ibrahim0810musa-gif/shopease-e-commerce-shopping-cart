@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEase | Online Shopping</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#home">Shop<span>Ease</span></a>
+
+    <div class="header-actions">
+      <label class="visually-hidden" for="search-input">Search products</label>
+      <input id="search-input" type="search" placeholder="Search products...">
+      <button id="cart-button" type="button">
+        Cart (<span id="cart-count">0</span>)
+      </button>
+    </div>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#cart">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home-hero" id="home">
+      <div class="hero-content">
+        <p class="hero-tag">WELCOME TO SHOPEASE</p>
+        <h1>Find Your Next Favourite Thing.</h1>
+        <p class="hero-description">
+          Discover quality electronics, stylish fashion, and everyday
+          essentials. Explore our collection, choose your favourites,
+          and enjoy a simple shopping experience with ShopEase.
+        </p>
+        <a class="hero-button" href="#products">Shop Now</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="images/hero-image.jpg"
+          alt="Products available at ShopEase"
+        >
+      </div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading">
+        <p class="section-label">OUR COLLECTION</p>
+        <h2>Shop Our Products</h2>
+        <p>Find something you love and add it to your cart.</p>
+      </div>
+
+      <div class="product-controls">
+        <label for="category-filter">Filter by category</label>
+        <select id="category-filter">
+          <option value="all">All categories</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Fashion">Fashion</option>
+          <option value="Accessories">Accessories</option>
+        </select>
+      </div>
+
+      <div id="product-list"></div>
+    </section>
+
+    <section class="cart-section" id="cart">
+      <p class="section-label">YOUR SELECTION</p>
+      <h2>Your Shopping Cart</h2>
+
+      <div id="cart-items">
+        <p class="empty-cart-message">
+          Your cart is empty. Add a product to get started.
+        </p>
+      </div>
+
+      <div class="cart-summary">
+        <p>
+          <span>Cart total</span>
+          <strong id="cart-total">₦0</strong>
+        </p>
+      </div>
+
+      <div class="cart-actions">
+        <button id="clear-cart-button" type="button">Clear Cart</button>
+        <button id="checkout-button" type="button">
+          Proceed to Checkout
+        </button>
+      </div>
+    </section>
+
+    <section class="info-section" id="about">
+      <p class="section-label">ABOUT US</p>
+      <h2>Shopping Made Simple</h2>
+      <p>
+        ShopEase is an online shopping demonstration project built to make
+        browsing products and managing a shopping cart simple. Search for
+        items, explore categories, adjust quantities, and review your order
+        in one convenient place.
+      </p>
+    </section>
+
+    <section class="info-section contact-section" id="contact">
+      <p class="section-label">OUR PROMISE</p>
+      <h2>A Convenient Shopping Experience</h2>
+      <p>
+        We want your shopping journey to feel clear and convenient, from
+        discovering a product to reviewing your cart. This is a frontend
+        demo, so checkout does not process real payments or send orders
+        to a server.
+      </p>
+    </section>
+  </main>
+  
+  
+<button id="back-to-top" type="button" aria-label="Back to top">
+  ↑ Back to Top
+</button>
+
+  <footer>
+    <p><strong>ShopEase</strong> — Your Everyday Shopping Spot</p>
+    <p>&copy; 2026 ShopEase. Demo project.</p>
+  </footer>
+
+</body>
+</html>
